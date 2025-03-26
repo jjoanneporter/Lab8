@@ -1,56 +1,64 @@
-
 #main-navbar {
     background-color: blue;
     overflow: hidden;
+    float: left;
     width: 100%;
     position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar-container {
+    position: relative;
+    left: 50%;
+    right: 50%;
+    float: left;
 }
 
 #navbar-container ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    text-align: center;
 }
 
-#navbar-container ul li {
-    display: inline-block;
-    padding: 10px 20px;
+#navbar-container li {
+    float: left;
 }
 
-#navbar-container ul li a {
-    color: #fff;
-    text-decoration: none;
-    background-color: #000;
-    padding: 10px 20px;
+#navbar-container a {
     display: block;
+    padding: 10px 20px;
+    color: #fff;
+    text-decoration: underline overline;
+    background-color: #000;
 }
-
 
 #sidebar {
     position: fixed;
-    right: 0;
+    right: 0%;
     background-color: red;
     height: 100%;
     width: 20%;
+    list-style-type: none;
     text-align: center;
+    padding: 0;
+    display: block;
 }
 
 #sidebar-container ul {
     list-style-type: none;
     padding: 0;
-    margin: 0;
 }
 
-#sidebar-container ul li {
+#sidebar-container li {
     display: block;
     padding: 15px 0;
 }
 
-#sidebar-container ul li a {
+#sidebar-container a {
     color: #fff;
     text-decoration: none;
     background-color: #000;
-    padding: 10px 20px;
     display: block;
+    padding: 10px 20px;
 }
